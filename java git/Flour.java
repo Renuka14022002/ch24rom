@@ -1,4 +1,4 @@
-lass Flour{
+class Flour{
 
 
 public Flour()

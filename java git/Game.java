@@ -16,7 +16,7 @@ String game10 ="Running";
 
 String[] games = {game10,game9,game8,game7,game6,game5,game4,game3,game2,game1};
 
-for(int first=0;first<games.length;first++)
+for(int first=games.length-1;first>=0;first--)
 {
 	String ref = games[first];
 	System.out.println("the game name is :"+ref);

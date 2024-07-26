@@ -25,7 +25,7 @@ class Animal{
 		
 	String[] names = {name20,name19,name18,name17,name16,name15,name14,name13,name12,name11,name10,name9,name8,name7,name6,name5,name4,name3,name2,name1};
 	
-	for(int store=0;store<names.length;store++)
+	for(int store=names.length-1;store>=0;store--)
 	{
 	String ref = names[store];
 System.out.println("The animal names are :"+ref);	

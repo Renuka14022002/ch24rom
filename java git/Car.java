@@ -21,7 +21,7 @@ public static void main(String[] args){
 	
 	String[] cars = {car10,car9,car8,car7,car6,car5,car4,car3,car2,car1};
 	
-	for(int start=0;start<cars.length;start++)
+	for(int start=cars.length-1;start>=0;start--)
 	{
 		String ref = cars[start];
 		System.out.println("the car name is :"+ref);

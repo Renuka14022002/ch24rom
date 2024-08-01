@@ -1,0 +1,6 @@
+class Water {
+
+public water(){
+
+}
+}

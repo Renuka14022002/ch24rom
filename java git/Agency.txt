@@ -1,0 +1,8 @@
+class Agency{
+public static void advanceBook(){
+System.out.println("start advanceBook in Agency");
+boolean cnfrm=Company.booked();
+return cnfrm;
+
+}
+}

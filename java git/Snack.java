@@ -29,7 +29,7 @@ String snack24= "trail mix";
 String snack25= "homemade cheese crackers";
 
 String[] snacks = {snack25,snack24,snack23,snack22,snack21,snack20,snack19,snack18,snack17,snack16,snack15,snack14,snack13,snack12,snack11,snack10};
-for(int name=snacks.length-1;name>=0;name--)
+for(int name=0;name<snacks.length;name++)
 {
 	String ref = snacks[name];
 	System.out.println("the name of the snack is :"+ref);

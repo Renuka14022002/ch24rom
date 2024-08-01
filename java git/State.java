@@ -34,7 +34,7 @@ String state28= "West Bengal";
 
 String[] states = {state28,state27,state26,state25,state24,state23,state22,state21,state20,state19,state18,state17,state16,state15,state14,state13,state12,state11,state10};
 
-for(int name=states.length-1;name>=0;name--)
+for(int name = 0;name<states.length;name++)
 {
 	String ref = states[name];
 	System.out.println("The name of state is :"+ref);

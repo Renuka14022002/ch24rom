@@ -10,7 +10,7 @@ String no5 = "KA14 RE9845";
 
 String[] nos = {no5,no4,no3,no2,no1};
 
-for(int name=nos.length-1;name>=0;name--)
+for(int name=0;name<nos.length;name++)
 {
 	String ref = nos[name];
 	System.out.println("The bus no is given as :"+ref);

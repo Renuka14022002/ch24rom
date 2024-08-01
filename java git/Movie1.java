@@ -28,7 +28,7 @@ class Movie1{
 	for(int store=0;store<names.length;store++)
 	{
 	String ref = names[store];
-    System.out.println("The movie names are :"+ref);	
+System.out.println("The movie names are :"+ref);	
 	}		
 		
 	}

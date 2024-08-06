@@ -1,3 +1,12 @@
+class MusicalInstruments {
+	
+ String name;
+ String material;
+ String sound;
+ String pitchRange;
+
+}
+
 class MusicalRunner {
  
  public static void main(String[] value){
